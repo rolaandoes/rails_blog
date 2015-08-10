@@ -1,0 +1,12 @@
+<h1>Profile</h1>
+<body>
+<p>
+	<ul class = "conatiner">
+		Name: <%= @current_user.first_name %>
+		<%= @current_user.last_name %><br>
+		Email: <%= @current_user.email %><br>
+	</ul>
+</p>
+<h2>My Posts</h2>
+<%= @current_user.posts %>
+</body>
